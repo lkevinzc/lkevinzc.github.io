@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: writing
 title: Writing
 ---
 <!-- <ul class="posts">
@@ -23,7 +23,7 @@ title: Writing
   {% endfor %}
 </ul> -->
 
-{% for post in paginator.posts %}
+<!-- {% for post in paginator.posts %}
 <div class="posts">
   <h1>
     <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
@@ -38,4 +38,4 @@ title: Writing
     <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
   </p>
 </div>
-{% endfor %}
+{% endfor %} -->
