@@ -12,13 +12,20 @@ layout: default
   {{ page.title }}
 </h1>
 
+{% if page.abstract %}
+    <h3>
+        {{page.abstract}}
+    </h3>
+{% endif %}
+
 {% if page.image %}
-  <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+  <img src="{{ site.github.url }}/assets/img/writing/{{ page.image }}">
 {% endif %}
 
 {% if page.github_link %}
     <a href="{{page.github_link}}" target="_blank"><img src="assets/img/github_button.png" alt="Download from GitHub" width="165" height="65"></a>
 {% endif %}
+
 
 {{ content }}
 
@@ -40,9 +47,13 @@ layout: default
   {% endif %}
 </span>
 
-{% include social-sharing.html %}
+{% if page.sharing %}
+    {% include social-sharing.html %}
+{% endif %}
 
-{% include related-posts.html %}
+{% if page.related %}
+    {% include related-posts.html %}
+{% endif %}
 
 {% if site.data.settings.disqus.comments %}
   {% include disqus.html %}
