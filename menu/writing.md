@@ -28,7 +28,7 @@ title: Writing
     <h1>
         <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
     </h1>
-    {% if post.image %}
+    <!-- {% if post.image %}
     <div class="thumbnail-container">
         <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/writing/{{ post.image }}"></a>
     </div>
@@ -36,6 +36,6 @@ title: Writing
     <p>
         {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
         <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
-    </p>
+    </p> -->
     </div>
 {% endfor %}
