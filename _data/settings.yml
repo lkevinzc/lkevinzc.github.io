@@ -1,0 +1,31 @@
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: ''
+
+# google-ID: 'UA-136687751-1'
+google-ID: ''
+
+menu:
+- {name: 'Photo', path: 'menu', url: 'photo.html'}
+- {name: 'Writing', path: 'menu', url: 'writing.html'}
+- {name: 'Archive', path: 'menu', url: 'archive.html'}
+- {name: 'Contact', path: 'menu', url: 'contact.html'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'github', link: 'https://www.github.com/lkevinzc'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/lkevinzc/'}
+- {icon: 'zhihu', link: 'https://www.zhihu.com/people/lzc-29-74/activities'}
+# <i class="fab fa-zhihu"></i>
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: 'You may also enjoy...'
+
+post_date_prefix: 'Written on'
