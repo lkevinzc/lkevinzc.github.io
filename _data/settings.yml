@@ -8,7 +8,7 @@ google-ID: ''
 
 menu:
 - {name: 'Photo', path: 'menu', url: 'photo.html'}
-- {name: 'Writing', path: 'menu', url: 'writing.html'}
+# - {name: 'Writing', path: 'menu', url: 'writing.html'}
 - {name: 'Archive', path: 'menu', url: 'archive.html'}
 - {name: 'Contact', path: 'menu', url: 'contact.html'}
 
