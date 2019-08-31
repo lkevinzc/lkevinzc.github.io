@@ -28,3 +28,9 @@ author:              'Liu Zichen'
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
+
+# use leancloud to record visitor counting
+leancloud:
+  enable: true
+  app_id: DTzI4FLDeomqKLIC11gAs5dB-MdYXbMMI
+  app_key: sSpJqYEv5q6Vaq89a699kH8g
