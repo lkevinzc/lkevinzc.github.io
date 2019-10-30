@@ -30,7 +30,7 @@ author:              'Liu Zichen'
 #  path: rss-feed.xml
 
 # use leancloud to record visitor counting
-leancloud:
-  enable: true
-  app_id: DTzI4FLDeomqKLIC11gAs5dB-MdYXbMMI
-  app_key: sSpJqYEv5q6Vaq89a699kH8g
+# leancloud:
+#   enable: true
+#   app_id: DTzI4FLDeomqKLIC11gAs5dB-MdYXbMMI
+#   app_key: sSpJqYEv5q6Vaq89a699kH8g
