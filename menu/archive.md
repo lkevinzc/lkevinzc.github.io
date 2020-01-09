@@ -4,11 +4,12 @@ title: Archive
 ---
 
 This is an archive for some of my projects, materials and others.
+
 ---
 
 - <a href="../assets/pdf/EE4218Demo.pdf" target="_blank"> Embedded Hardware System Design Demonstration </a> 
 
-    This is a demo slide for the final project of the module <a href="https://nusmods.com/modules/EE4218/embedded-hardware-system-design" target="_blank"> EE4218 </a> (Autumn, 2019), taught by <a href="https://www.ece.nus.edu.sg/stfpage/raje/" target="_blank"> Dr. Rajesh in NUS. It includes nearly all the processes in an FPGA design, from sequential logic optimization, behavioral synthesis, architectural synthesis to scheduling and binding, technology mapping, physical synthesis. The project is to implement a neural network on the system-on-chip, and utilize FPGA to accelerate the inference stage.
+    This is a demo slide for the final project of the module <a href="https://nusmods.com/modules/EE4218/embedded-hardware-system-design" target="_blank"> EE4218 </a> (Autumn, 2019), taught by <a href="https://www.ece.nus.edu.sg/stfpage/raje/" target="_blank"> Dr. Rajesh </a> in NUS. It includes nearly all the processes in an FPGA design, from sequential logic optimization, behavioral synthesis, architectural synthesis to scheduling and binding, technology mapping, physical synthesis. The project is to implement a neural network on the system-on-chip, and utilize FPGA to accelerate the inference stage.
 
 
 - [Demo](https://www.youtube.com/watch?v=do7jV_T61yg){:target="_blank"} (or [this on bilibili](https://www.bilibili.com/video/av56362371){:target="_blank"}) for a scene text extraction model developed during my internship at Shopee
@@ -24,7 +25,7 @@ This is an archive for some of my projects, materials and others.
 
 - <a href="../assets/pdf/EE4212HelpSheet.pdf" target="_blank"> Computer Vision Help Sheet </a> 
 
-    This is a help sheet for the module <a href="https://nusmods.com/modules/EE4212/computer-vision" target="_blank"> EE4212 </a> (Spring, 2019), taught by <a href="https://www.ece.nus.edu.sg/stfpage/eleclf/" target="_blank"> Dr. Cheong </a> and [Dr. Jiashi](https://sites.google.com/site/jshfeng/){:target="_blank"} in NUS. It includes both mid-level vision, such as stereo analysis and structure from motion, and techniques for processing images like segmentation, HDR and panorama, etc. This module is not much related to deep learning approaches, instead, it outlines some traditional vision challenges and methods. This help sheet was prepared for the final exam as a brief summary ;D
+    This is a help sheet for the module [EE4212](https://nusmods.com/modules/EE4212/computer-vision){:target="_blank"} (Spring, 2019), taught by <a href="https://www.ece.nus.edu.sg/stfpage/eleclf/" target="_blank"> Dr. Cheong </a> and [Dr. Jiashi](https://sites.google.com/site/jshfeng/){:target="_blank"} in NUS. It includes both mid-level vision, such as stereo analysis and structure from motion, and techniques for processing images like segmentation, HDR and panorama, etc. This module is not much related to deep learning approaches, instead, it outlines some traditional vision challenges and methods. This help sheet was prepared for the final exam as a brief summary ;D
 
 
 
