@@ -9,7 +9,7 @@ This is an archive for some of my projects, materials and others.
 
 - <a href="../assets/pdf/EE4218Demo.pdf" target="_blank"> Embedded Hardware System Design Demonstration </a> 
 
-    This is a demo slide for the final project of the module <a href="https://nusmods.com/modules/EE4218/embedded-hardware-system-design" target="_blank"> EE4218 </a> (Autumn, 2019), taught by <a href="https://www.ece.nus.edu.sg/stfpage/raje/" target="_blank"> Dr. Rajesh </a> in NUS. It includes nearly all the processes in an FPGA design, from sequential logic optimization, behavioral synthesis, architectural synthesis to scheduling and binding, technology mapping, physical synthesis. The project is to implement a neural network on the system-on-chip, and utilize FPGA to accelerate the inference stage.
+    This is a demo slide for the final project of the module [EE4218](https://nusmods.com/modules/EE4218/embedded-hardware-system-design){:target="_blank"} (Autumn, 2019), taught by [Dr. Rajesh](https://www.ece.nus.edu.sg/stfpage/raje/){:target="_blank"} in NUS. It includes nearly all the processes in an FPGA design, from sequential logic optimization, behavioral synthesis, architectural synthesis to scheduling and binding, technology mapping, physical synthesis. The project is to implement a neural network on the system-on-chip, and utilize FPGA to accelerate the inference stage.
 
 
 - [Demo](https://www.youtube.com/watch?v=do7jV_T61yg){:target="_blank"} (or [this on bilibili](https://www.bilibili.com/video/av56362371){:target="_blank"}) for a scene text extraction model developed during my internship at Shopee
