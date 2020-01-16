@@ -3,6 +3,8 @@ layout: page
 title: Contact
 ---
 
+- [CV]("../assets/pdf/zcCV.pdf"){:target="_blank"}
+
 - [github](https://www.github.com/lkevinzc){:target="_blank"}
 
 - [linkedin](https://www.linkedin.com/in/lkevinzc/){:target="_blank"}
