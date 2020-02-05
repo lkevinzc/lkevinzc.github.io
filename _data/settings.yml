@@ -16,7 +16,7 @@ menu:
 social:
 - {icon: 'github', link: 'https://www.github.com/lkevinzc'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/lkevinzc/'}
-- {icon: 'zhihu', link: 'https://www.zhihu.com/people/lzc-29-74/activities'}
+# - {icon: 'zhihu', link: 'https://www.zhihu.com/people/lzc-29-74/activities'}
 # <i class="fab fa-zhihu"></i>
 
 # Customize site text
