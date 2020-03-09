@@ -1,0 +1,16 @@
+*.git*
+**/build/**
+***/build/
+**/*.egg-info/
+*.so
+***/dist/
+*.o
+*.egg
+.idea
+*.pyc
+*.pth
+*.jpg
+*.png
+*.jpeg
+*.ipynb
+__pycache__/

@@ -29,29 +29,6 @@ export FLASK_APP=app.py
 export FLASK_ENV=development
 flask run
 
-
-# EAST !!! #
-rsync -avrh /Users/zichen.liu/Desktop/projects/shopee/3_text/ocr_lib/east_pytorch dev0:/ldap_home/zichen.liu/
-
-### ---------------- file transfer 193 text --------------- ###
-# (local to server)
-rsync -avrh --exclude='/output' --exclude='/venv' --exclude='/_old' --exclude='/_ctpn_pytorch_bak' --exclude='/ocr_lib/ctpn_pytorch/lib/dataset/ctpn_valid_17_800px_latin/pred' --exclude='/.git' --exclude='/ocr_lib/ctpn_pytorch/lib/model/_C.cpython-36m-darwin.so' /Users/zichen.liu/Desktop/projects/shopee/3_text/ dev0:/ldap_home/zichen.liu/text/
-# (server to local)
-
-# tensorboardX
-rsync -avrh dev0:/ldap_home/zichen.liu/text/ocr_lib/ctpn_pytorch/ctpn_training_logs /Users/zichen.liu/Desktop/projects/shopee/proj3_exp/ocr_lib/ctpn_pytorch/
-
-# model
-rsync -avrh dev0:/ldap_home/zichen.liu/text/ocr_lib/ctpn_pytorch/models/* /Users/zichen.liu/Desktop/projects/shopee/proj3_exp/ocr_lib/ctpn_pytorch/models/
-
-# output ctpn
-rsync -avrh dev0:/ldap_home/zichen.liu/text/ocr_lib/ctpn_pytorch/lib/dataset/tmp_out /Users/zichen.liu/Desktop/projects/shopee/proj3_exp/ocr_lib/ctpn_pytorch/lib/dataset
-
-# output combine
-rsync -avrh dev0:/ldap_home/zichen.liu/text/output/* /Users/zichen.liu/Desktop/projects/shopee/proj3_exp/output/
-
-# backup
-rsync -avrh dev0:/ldap_home/zichen.liu/text/ctpn_pytorch/train_exp.ipynb /Users/zichen.liu/Desktop/projects/shopee/proj3_exp/ctpn_pytorch_bak/train_exp_bak.ipynb
 ### ------------ about conda ------------ ###
 conda info --envs				# check your environments
 conda create --name my_env python=3.6.8		# new environment
@@ -103,8 +80,6 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 from IPython import display
 display.set_matplotlib_formats('svg')
-
-
 
 
 # vscode settings.json
