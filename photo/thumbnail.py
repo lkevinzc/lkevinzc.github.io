@@ -21,4 +21,7 @@ for imfn in ims:
     thumb_w, thumb_h = w // ratio, h // ratio
     im.thumbnail((thumb_w, thumb_h))
     im = add_margin(im, 5, 5, 5, 5, (255, 255, 255))
-    im.save(imfn.replace("full", "thumb"))
+    try:
+        im.save(imfn.replace("full", "thumb"))
+    except OSError:
+        im.convert("RGB").save(imfn.replace("full", "thumb"))
