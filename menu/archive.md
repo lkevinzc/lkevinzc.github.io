@@ -7,6 +7,11 @@ This is an archive for some of my projects, materials and others.
 
 ---
 
+- [MOSEC](https://github.com/mosecorg/mosec){:target="_blank"}
+
+    This project aims to build a highly efficient model serving framework powered by Rust web layer, while offering user friendly interface in Python. It is able to serve your ML models of any framework in Python within minutes of development effort.
+    
+    
 - <a href="../assets/pdf/EE4218Demo.pdf" target="_blank"> Embedded Hardware System Design Demonstration </a> 
 
     This is a demo slide for the final project of the module [EE4218](https://nusmods.com/modules/EE4218/embedded-hardware-system-design){:target="_blank"} (Autumn, 2019), taught by [Dr. Rajesh](https://www.ece.nus.edu.sg/stfpage/raje/){:target="_blank"} in NUS. It includes nearly all the processes in an FPGA design, from sequential logic optimization, behavioral synthesis, architectural synthesis to scheduling and binding, technology mapping, physical synthesis. The project is to implement a neural network on the system-on-chip, and utilize FPGA to accelerate the inference stage.
