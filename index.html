@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Google Analytics -->
+    {% include google-analytics.html %}
   </head>
 
   <body>
@@ -88,7 +90,7 @@
                           }
                       </bib>
                     </details>
-                  <p>We investigate the deficiencies of MCTS in MuZero-like offline RL algorithms and propose an efficient regularized improvement operator that achieves better sample- and compute-efficiency.</p>
+                  <p>We investigate the deficiencies of <a href="https://en.wikipedia.org/wiki/Monte_Carlo_tree_search" target="_blank">MCTS</a> in the offline <a href="https://www.furidamu.org/blog/2020/12/22/muzero-intuition/" target="_blank">MuZero</a> algorithm and propose an efficient regularized improvement operator that achieves better sample- and compute-efficiency on the Atari benchmark.</p>
                 </td>
               </tr>
 
@@ -117,7 +119,7 @@
                   <em>Advances in Neural Information Processing Systems (NeurIPS)</em> 2022
                   <br>
                   <a href="https://papers.nips.cc/paper_files/paper/2022/file/8caaf08e49ddbad6694fae067442ee21-Paper-Datasets_and_Benchmarks.pdf" target="_blank">pdf</a> 
-                  / <a href="https://github.com/sail-sg/envpool" target="_blank">code</a>
+                  / <a href="https://github.com/sail-sg/envpool" target="_blank">code</a> <img alt="GitHub stars" src="https://img.shields.io/github/stars/sail-sg/envpool?style=flat-square" height="13px">
                   / <details>
                       <summary>
                         bibtex
@@ -194,8 +196,8 @@
                     </a> <img alt="GitHub stars" src="https://img.shields.io/github/stars/mosecorg/mosec?style=social" height="19px">
                     <br>
                     <p>Mosec is a high-performance ML model serving framework built with a <a href="https://tokio.rs/" target="_blank">fast Rust web layer</a>. 
-                        It supports all different ML frameworks, such as Jax, PyTorch, TensorFlow, etc., and is super easy to write the server codes.
-                        The main features include dynamic batching and CPU/GPU pipelines to fully exploit your compute machine.</p>
+                      It supports all different ML frameworks, such as Jax, PyTorch, TensorFlow, etc., with a super easy coding interface in Python. 
+                      Dynamic batching and CPU/GPU pipelines are the core features that can fully exploit your computing machine.</p>
                   </td>
               </tr>
 
